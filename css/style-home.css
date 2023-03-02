@@ -1,0 +1,328 @@
+@charset "UTF-8";
+* {
+
+    Padding: 0;
+    Margin: 0;
+    box-sizing: border-box;
+    } 
+    
+    li { 
+    
+    List-style : none;
+    }
+.social-media ul{background-color: #121212;}
+
+.hero menu {
+    display: flex;
+    background-color: black;
+    font-family: Hind;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0px 0px 0px 72px;
+    height: 82px;
+    width: 100%;
+    align-items: center;
+}
+
+.hero menu ul {
+    list-style-type: none;
+
+}
+.hero menu ul li a{ 
+    text-decoration: none; 
+    color: #F9F9F9;
+}
+.hero menu .logo {
+    font-size: 24px;
+    line-height: 1px;
+}
+.hero menu .nav-bar {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+}
+.hero menu .nav-bar a {
+    margin-left: 56px;
+}
+h1{
+    font-family: Montserrat;
+    font-size:44px;
+}
+.CTA {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: #F9F9F9;
+    background-color: #121212;
+    font-size: 16px;
+    padding: 16px 20px 16px 20px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+.CTA:hover{
+background-color: #606060;
+}
+.CTA:active{
+    background-color: #F9F9F9;
+    }
+.hero main {
+    font-family: Hind;
+    font-weight: 300;
+    display: flex;
+    margin:200px 256px 0px 180px;
+    justify-content: space-between;
+    align-items: start;
+    z-index: 2;
+    position: relative;
+}
+.hero-headings {
+    width: 352px;
+}
+.hero-headings .stick-1 {
+    margin-top: 4px;
+    position: absolute;
+    height: 100px;
+    width: 7px;
+    background-color: #121212;
+    left: -24px;
+}
+.hero-headings h1 {
+margin-bottom: 12px;
+}
+.hero-headings p{
+    font-size: 18px;
+}
+.hero-headings .CTA-wrapper{
+    padding-top: 32px;
+}
+.hero main .image {
+    height: 324px;
+}
+.hero main .arrow {
+    position: absolute;
+    right: 280px;
+    top: -104px;
+
+}
+.background-block  {
+    position: absolute;
+    background-color: #F9F9F9;
+    height: 570px;
+    width: 81%;
+    z-index: 1;
+    display: flex;
+    right: 0px;
+    margin-top: 104px;
+   
+}
+.background-block-2{
+    position: absolute;
+    background-color: #121212;
+    height: 127px;
+    width: 100%;
+    top: 756px;
+}
+.skills {
+    margin: 414px 0px 0px 0px;
+    width: 100%;
+}
+.skills-image-wrapper {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    z-index: 8;
+}
+.skills-heading {
+    position: relative;
+    padding-left: 180px;
+    padding-bottom: 12px;
+    z-index: 100;
+}
+.skills .skills-image-wrapper .image {
+    position: relative;
+    height: 376px;
+    z-index: 9;
+}
+.skills .stick-2 {
+    position: absolute;
+    height: 7px;
+    width: 80px;
+    background-color: #121212;
+    left: 180px;
+    z-index: 90;
+    top: 1000px;
+}
+.background-block-3{
+    position: absolute;
+    background-color: #F9F9F9;
+    height: 600px;
+    width: 25.3%;
+    z-index: 1;
+    top: 883px;
+}
+.background-block-4{
+    position: absolute;
+    background-color: #F9F9F9;
+    top: 1483px;
+    height: 900px;
+    width: 65%;
+    z-index: 1;
+}
+.projects {
+    margin: 174px 0px 0px 0px;
+    width: 100%;
+    position: relative;
+    z-index: 20;
+}
+.projects h1 {
+    font-size: 36px;
+    margin-bottom: 8px;
+    margin-left: 180px;
+}
+.projects p {
+    font-family: Hind;
+    font-weight: 300;
+    margin-bottom: 64px;
+    margin-left: 180px;
+}
+.projects img{
+    width: 360px;
+    box-shadow: 0px 2px 10px 0px #7e7e7e;
+}
+.projects img:hover {
+    background: rgba(24, 24, 24, 0.5);
+    opacity: 80%;
+}
+.projects ul li{
+    list-style-type: none;
+    margin-left: 32px;
+}
+.projects .project-images-first-row {
+display: flex;
+width: 100%;
+justify-content: center;
+}
+.projects .project-images-second-row {
+    display: flex;
+    margin-top: 24px;
+    width: 100%;
+    justify-content: center;
+}
+.projects .stick-3 {
+    position: absolute;
+    height: 86px;
+    width: 7px;
+    background-color: #121212;
+    left: 156px;
+    z-index: 90;
+}
+.background-block-5{
+    position: absolute;
+    background-color: #F9F9F9;
+    height: 685px;
+    margin-top: 50px;
+    width: 100%;
+    z-index: 1;
+}
+ .contact {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 120;
+    width: 100%;
+    height: 260px;
+    margin: 104px 0px 0px 0px;
+ }
+ .contact h1{ 
+       font-size: 36px; 
+       margin-bottom: 40px;
+    }
+
+.contact-content{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-color: #121212;
+border-style: solid;
+border-width: 8px;
+border-radius: 2px;
+background-color: #F9F9F9;
+width: 640px;
+height: 100%;
+}
+.contact-wrapper{
+    position: relative;
+    z-index: 200;
+    width: 100%;
+    height: 536px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.contact-wrapper-2 .image{
+    z-index: 240;
+    height: 152px;
+    margin-right: -80px;
+    margin-top: -12px;
+}
+.contact-wrapper .contact-wrapper-2 {
+display: flex;
+justify-content: center;
+align-items: start;
+height: 100%;
+width: 800px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    height: 216px;
+    justify-content: end;
+}
+.nav-buttons li a{
+    color: #F9F9F9;
+     text-decoration: none; 
+    font-family: Hind;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 56px;
+}
+.nav-buttons {
+    display: flex;
+    margin: 0px 0px 40px 24px;
+}
+.social-media li a{
+   color: #F9F9F9;
+    text-decoration: none;  
+    font-family: Hind;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.social-media li {
+    display: flex;
+}
+.social-media {
+    margin: 0px 0px 36px 68px;
+}
+.social-media .follow-me {
+margin-right: 12px;
+}
+.social-media .stick {
+    margin-top: 6px;
+}
+.brand-s-name {
+    color: #F9F9F9; 
+    font-family: Hind;
+    font-weight: lighter;
+    font-size: 15px;
+    margin: 0px 0px 16px 78px;
+}
+.social-media .stick {
+    background-color: #F9F9F9;
+    height: 16px;
+    width: 3px;
+}
